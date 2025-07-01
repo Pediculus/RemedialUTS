@@ -33,7 +33,7 @@ public class PadelRentalForm extends JFrame{
        setTitle("Form Sewa Lapangan Padel");
        setSize(400, 350);
        setDefaultCloseOperation(EXIT_ON_CLOSE);
-       setLayout(new GridLayout(7, 2, 10, 10));
+       setLayout(new GridLayout(10, 2, 5, 5));
        setLocationRelativeTo(null);
        
        String[] columnNames = {"Nama", "No.Hp", "Tanggal", "Jam Mulai", "Jam Selesai", "Lapangan"};
